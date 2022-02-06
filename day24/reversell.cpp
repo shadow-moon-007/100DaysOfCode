@@ -104,7 +104,7 @@ node *reverse(node *&head)
 node *reverserec(node *&head)
 {
 
-    if (head == NULL || head->next = NULL)
+    if (head->next == NULL || head == NULL)
     {
         return head;
     }
