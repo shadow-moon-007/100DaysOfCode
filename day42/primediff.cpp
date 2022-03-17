@@ -53,14 +53,14 @@ int main()
                     last -= 1;
                 }
             }
-            if (f != 0 and l != 0)
+            if (f != 0 && l != 0)
             {
                 break;
             }
         }
         if (f != 0 && l != 0)
         {
-            cout << l - f;
+            cout << l - f + 1;
         }
         else
         {
